@@ -28,5 +28,5 @@ The second part of these filenames use suffixes to describe the purpose of the s
 - `_mb` defines differential equations.
 
 Additional Scripts
-- `IModelCom.m`  is called by CM_Drive to initialise the structure of the model using different components of the full photosynthesis model.
-- `IniModelCom.m` is called by EPS_Drive to to initialise the structure of the model using different components of the full photosynthesis model.
+- `IModelCom.m`  is called by CM_Drive to initialise the structure of the model using different components of the full photosynthesis model
+- `IniModelCom.m` is called by EPS_Drive to to initialise the structure of the model using different components of the full photosynthesis model
