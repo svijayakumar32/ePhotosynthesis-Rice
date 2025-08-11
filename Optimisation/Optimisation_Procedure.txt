@@ -1,0 +1,12 @@
+1. Find Vcmax and Jmax values for crop species (literature or experiments)
+
+2. Use Jmax_adj to find the optimal Vmax (trying out different values to ascertain which gives lowest SSR) - then substitute this value into Vcmax_adj.m
+
+3. Use Vcmax_adj.m to obtain optimal VRubisco (which gives lowest SSR)
+
+4. Run optimization for Cc=129 ppm using gpmain.m, setting VRubisco and Vmax to optimal values found using parameterisation step 
+(or edit Einput and set these both as 1 in gpmain)
+
+5. BestMatrix gives the optimal distribution of Vmax values for 67 photosynthetic enzymes (V1-V59)
+
+6. dplot gives change in metabolite concentrations (needs to reach steady state towards end of optimisation)
