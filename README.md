@@ -53,7 +53,7 @@ and subsequently added to the MATLAB path using `addpath(genpath(selpath))`. Thi
    - a single script used to evaluate the effect of variability in protein expression on predicted improvements to CO2 assimilation
 
 ## Running the Analysis
-The code is run in the following order, where the final script of each analysis plots the results:
+The code is run in the following order:
 
 1. CO2 response fitting 
    - `msuRACiFit_params.R`
